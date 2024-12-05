@@ -1,0 +1,6 @@
+Name- Inesh Singh Negi
+Course- MCA
+Semester- 1st
+Section- A1
+Roll no- 2201184/018
+Project- Simple Ludo Game Using HTML, CSS, JS

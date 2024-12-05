@@ -1,0 +1,39 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Let's play</title>
+    <link rel="stylesheet" href="ludo.css">
+    <script src="Ludo.js"></script>
+</head>
+<body>
+    <div id="main">
+    <div id="board"></div>
+
+    <div id="dice" onclick="randomNum()" ></div>
+
+    <div class="pawns" id="redpawn1"    onclick="randomMove('red',1)"       style="background-color:rgb(82, 3, 3);top:115px;left:109px;"></div>
+    <div class="pawns" id="redpawn2"    onclick="randomMove('red',2)"       style="background-color:rgb(82, 3, 3);top:188px;left:109px;"></div>
+    <div class="pawns" id="redpawn3"    onclick="randomMove('red',3)"       style="background-color:rgb(82, 3, 3);top:115px;left:183px;"></div>
+    <div class="pawns" id="redpawn4"    onclick="randomMove('red',4)"       style="background-color:rgb(82, 3, 3);top:188px;left:183px;"></div>
+
+    <div class="pawns" id="yellowpawn1" onclick="randomMove('yellow',1)"    style="background-color:rgb(192, 192, 25);top:463px;left:455px;"></div>
+    <div class="pawns" id="yellowpawn2" onclick="randomMove('yellow',2)"    style="background-color:rgb(192, 192, 25);top:463px;left:528px;"></div>
+    <div class="pawns" id="yellowpawn3" onclick="randomMove('yellow',3)"    style="background-color:rgb(192, 192, 25);top:536px;left:455px;"></div>
+    <div class="pawns" id="yellowpawn4" onclick="randomMove('yellow',4)"    style="background-color:rgb(192, 192, 25);top:536px;left:528px;"></div>
+
+    <div class="pawns" id="greenpawn1"  onclick="randomMove('green',1)"     style="background-color:rgb(9, 110, 9);top:463px;left:109px;"></div>
+    <div class="pawns" id="greenpawn2"  onclick="randomMove('green',2)"     style="background-color:rgb(9, 110, 9);top:536px;left:109px;"></div>
+    <div class="pawns" id="greenpawn3"  onclick="randomMove('green',3)"     style="background-color:rgb(9, 110, 9);top:463px;left:183px;"></div>
+    <div class="pawns" id="greenpawn4"  onclick="randomMove('green',4)"     style="background-color:rgb(9, 110, 9);top:536px;left:183px;"></div>
+
+    <div class="pawns" id="bluepawn1"   onclick="randomMove('blue',1)"      style="background-color:rgb(16, 16, 102);top:115px;left:455px;"></div>
+    <div class="pawns" id="bluepawn2"   onclick="randomMove('blue',2)"      style="background-color:rgb(16, 16, 102);top:115px;left:528px;"></div>
+    <div class="pawns" id="bluepawn3"   onclick="randomMove('blue',3)"      style="background-color:rgb(16, 16, 102);top:188px;left:455px;"></div>
+    <div class="pawns" id="bluepawn4"   onclick="randomMove('blue',4)"      style="background-color:rgb(16, 16, 102);top:188px;left:528px;"></div>
+
+
+    <h4 class="text" id="uselesstext1">Player </h4><h4 id="player" style="float:left; font-size:20px; color:red">red</h4><h4 class="text" id="uselesstext2">'s turn</h4>
+    <p id="badtext" style="float:left; font-size:30px; font-weight: 10000; color: rgba(243, 6, 6, 0.453);"></p>
+    </div>
+</body>
+</html>

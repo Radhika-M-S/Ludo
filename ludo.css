@@ -1,0 +1,64 @@
+body {
+    background-color: rgb(62, 61, 61);
+    background-image: url('front.jpg');
+    background-repeat: no-repeat;
+    background-attachment: relative;  
+    background-size: cover;
+}
+#start {
+    border: 5px solid rgb(72, 186, 224);
+    border-radius: 50%;
+    padding: 5px;
+    width: 550px;
+    display: block;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    width: 10%;
+}
+
+#start:hover {
+    box-shadow: 0 0 60px 30px rgba(105, 209, 243, 0.5);
+}
+#game {
+    text-align: center;
+    font-size: 100px;
+    color: rgb(61, 232, 232);
+    font-style: italic;
+    font-family: cursive;
+}
+
+#main{
+    width:1000px;
+    float:left;
+}
+.pawns{
+    width:30px;
+    height:30px;
+    border-radius:20px;
+    position:absolute;
+}
+#board{
+    background:url(board.jpg) no-repeat;
+    background-size:cover;
+    width:650px;
+    height:650px;
+    float:left;
+    margin-top:8px;
+}
+#dice{
+    background-image:url(dice.gif);
+    background-size:contain; 
+    width:150px;
+    height:150px; 
+    float:left;
+    margin-left:5px;
+}
+.text{
+    float:left;
+    padding-left:10px;
+    padding-right:10px;
+    font-size: 20px;
+    color: azure;
+}
